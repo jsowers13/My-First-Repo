@@ -1,0 +1,53 @@
+body {
+	background: black;
+	font-family: "Balsamiq Sans", cursive;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	margin-top: 300px;
+}
+.postcard-header {
+	display: flex;
+}
+#logo {
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#my-postcard {
+	width: 325px;
+	margin: 0px;
+	padding: 5px;
+}
+.postcard-body {
+	display: flex;
+}
+.first {
+	margin-top: 0;
+}
+.body-left {
+	padding: 10px;
+}
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+	color: gray;
+	font-family: "Balsamiq Sans", cursive;
+	font-size: 12pt;
+	padding-top: 20px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: gray;
+	padding: 5px 10px;
+	font-family: "Balsamiq Sans", cursive;
+}
